@@ -7,7 +7,7 @@ import axios from 'axios';
 function Button(props) {
   return (
     <button className="button" onClick={() => 
-      axios.get('http://localhost:5000',{})
+      axios.post('http://35.197.194.231:5000/ping/', {'ping':'pong'})
         .then(function (response) {console.log(response);}
       )}
    >
