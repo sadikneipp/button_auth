@@ -1,0 +1,41 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background: #fff;
+    border: 1px solid #999;
+    float: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 300px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .app {
+    margin-top: 200px;
+    text-align: center;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
